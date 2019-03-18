@@ -3,7 +3,7 @@ UiS DAT500 PySpark sample code.
 
 Since the cluster is being deployed, if your cluster is not ready yet, you can practice in your local environment with following [this guide](https://github.com/thejungwon/dat500-19-sample/blob/master/pyspark-test.pdf).
 
-## Getting Started
+## 1. Getting Started
 ### Installation
 ```
 cd <YOUR-GROUP-FOLDER>
@@ -38,7 +38,7 @@ word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-
 - [word_cnt.ipynb](https://github.com/thejungwon/dat500-19-sample/blob/master/word_cnt.ipynb)
 
 
-## Available Cluster for Each Group 
+## 2. Available Cluster for Each Group 
 ### Updated: Mon Mar 18 15:53:16 CET 2019
 | Group | [G1](https://group1-jp.wiktorskit.sigma2.no) | [G2](https://group2-jp.wiktorskit.sigma2.no) | [G3](https://group3-jp.wiktorskit.sigma2.no) | [G4](https://group4-jp.wiktorskit.sigma2.no) | [G5](https://group5-jp.wiktorskit.sigma2.no) | [G6](https://group6-jp.wiktorskit.sigma2.no) | [G7](https://group7-jp.wiktorskit.sigma2.no) | [G8](https://group8-jp.wiktorskit.sigma2.no) | [G9](https://group9-jp.wiktorskit.sigma2.no) | [G10](https://group10-jp.wiktorskit.sigma2.no) | [G11](https://group11-jp.wiktorskit.sigma2.no) | [G12](https://group12-jp.wiktorskit.sigma2.no) | [G13](https://group13-jp.wiktorskit.sigma2.no) | [G14](https://group14-jp.wiktorskit.sigma2.no) | [G15](https://group15-jp.wiktorskit.sigma2.no) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,6 +46,6 @@ word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-
 | Jupyter | O | X | X | O | X | O | X | X | X | O | X | O | O | O | X |
 | Spark   | O | X | O | X | O | O | X | O | X | O | X | X | X | X | X |
 
-## Built With
+## 3. Built With
 
 * Python3
