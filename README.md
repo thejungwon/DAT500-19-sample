@@ -25,7 +25,7 @@ spark-submit --verbose word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list 
 
 ## Available Cluster for Each Group 
 ### Updated: Mon Mar 18 15:53:16 CET 2019
-| Group | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 | G9 | G10 | G11 | G12 | G13 | G14 | G15 |
+| Group | [G1](https://group1-jp.wiktorskit.sigma2.no) | [G2](https://group2-jp.wiktorskit.sigma2.no) | [G3](https://group3-jp.wiktorskit.sigma2.no) | [G4](https://group4-jp.wiktorskit.sigma2.no) | [G5](https://group5-jp.wiktorskit.sigma2.no) | [G6](https://group6-jp.wiktorskit.sigma2.no) | [G7](https://group7-jp.wiktorskit.sigma2.no) | [G8](https://group8-jp.wiktorskit.sigma2.no) | [G9](https://group9-jp.wiktorskit.sigma2.no) | [G10](https://group10-jp.wiktorskit.sigma2.no) | [G11](https://group11-jp.wiktorskit.sigma2.no) | [G12](https://group12-jp.wiktorskit.sigma2.no) | [G13](https://group13-jp.wiktorskit.sigma2.no) | [G14](https://group14-jp.wiktorskit.sigma2.no) | [G15](https://group15-jp.wiktorskit.sigma2.no) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Status  | O | X | X | X | X | O | X | X | X | O | X | X | X | X | X |
 | Jupyter | O | X | X | O | X | O | X | X | X | O | X | O | O | O | X |
