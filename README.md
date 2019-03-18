@@ -8,6 +8,8 @@ cd <YOUR-GROUP-FOLDER>
 git clone https://github.com/thejungwon/dat500-19-sample.git
 cd dat500-19-sample
 wget https://www.dropbox.com/s/vofyl0uryectfyt/actors.list?dl=0
+//or 
+curl -L -o actors.list https://www.dropbox.com/s/vofyl0uryectfyt/actors.list\?dl\=1
 ```
 ### (Option #1) Running with regular Python
 ```
