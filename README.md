@@ -1,7 +1,7 @@
 # DAT500-19-sample
 UiS DAT500 PySpark sample code.
 
-Since the cluster is being deployed, if your cluster is not ready yet, you can practice in your local environment with following this guide.
+Since the cluster is being deployed, if your cluster is not ready yet, you can practice in your local environment with following [this guide](https://github.com/thejungwon/dat500-19-sample/blob/master/pyspark-test.pdf).
 
 ## Getting Started
 ### Installation
