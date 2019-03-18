@@ -1,25 +1,36 @@
 # DAT500-19-sample
-UiS DAT500 sample code
+UiS DAT500 PySpark sample code
 
 ## Getting Started
-### Initial Setting
+### Installation
 ```
 cd <YOUR-GROUP-FOLDER>
 git clone https://github.com/thejungwon/dat500-19-sample.git
 cd dat500-19-sample
 wget https://www.dropbox.com/s/vofyl0uryectfyt/actors.list?dl=0
 ```
-### (Option #1) Runing with regular python
+### (Option #1) Running with regular Python
 ```
 python word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-19-sample/output01
 ```
 
-### (Option #2) Runing with regular spark-submit
+### (Option #2) Running with spark-submit command
+
 ```
 spark-submit --verbose word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-19-sample/output01
 ```
+You may want to set more configuration.
+(Try this configuration later when you need performance analysis.)
+```
+spark-submit --verbose \
+--executor-memory 1g \
+--driver-memory 1g \
+--conf spark.driver.memoryOverhead=1024m \
+--conf spark.executor.memoryOverhead=1024m \
+word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-19-sample/output01
+```
 
-### (Option #3) Runing with Jupyter Notebook
+### (Option #3) Running with Jupyter Notebook
 - [word_cnt.ipynb](https://github.com/thejungwon/dat500-19-sample/blob/master/word_cnt.ipynb)
 
 
