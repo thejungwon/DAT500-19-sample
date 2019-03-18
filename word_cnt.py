@@ -6,9 +6,9 @@ import pyspark
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: wordcount <file>", file=sys.stderr)
+        print("Usage: wordcount <input file> <output dir>", file=sys.stderr)
         sys.exit(-1)
-    sc = pyspark.SparkContext(appName="word-count33")
+    sc = pyspark.SparkContext(appName="word-count")
     text_file = sc.textFile("file://"+sys.argv[1])
     counts = text_file.flatMap(lambda line: line.split(" ")) \
                  .map(lambda word: (word, 1)) \
