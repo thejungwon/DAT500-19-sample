@@ -14,6 +14,9 @@ wget https://www.dropbox.com/s/vofyl0uryectfyt/actors.list?dl=0
 curl -L -o actors.list https://www.dropbox.com/s/vofyl0uryectfyt/actors.list\?dl\=1
 ```
 ### (Option #1) Running with regular Python
+#### ABSOLUTE_PATH for each group
+- Group 1,3,5,7,9,11,13,15 : /mnt/wiktorskit-jungwonseo-ns0000k/home/notebook/YOUR_GROUP_FOLDER
+- Group 2,4,6,8,10,12,14 : /mnt/wiktorskit-danielb-ns0000k/home/notebook/YOUR_GROUP_FOLDER
 ```
 python word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-19-sample/output01
 ```
