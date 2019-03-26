@@ -53,5 +53,9 @@ word_cnt.py <ABSOLUTE_PATH>/dat500-19-sample/actors.list <ABSOLUTE_PATH>/dat500-
 | Spark   | [O](https://group1-sp.wiktorskit.sigma2.no) | [O](https://group2-sp.wiktorskit.sigma2.no) | [O](https://group3-sp.wiktorskit.sigma2.no) | [O](https://group4-sp.wiktorskit.sigma2.no) | [O](https://group5-sp.wiktorskit.sigma2.no) | [O](https://group6-sp.wiktorskit.sigma2.no) | [O](https://group7-sp.wiktorskit.sigma2.no) | [O](https://group8-sp.wiktorskit.sigma2.no) | [O](https://group9-sp.wiktorskit.sigma2.no) | [O](https://group10-sp.wiktorskit.sigma2.no) | [O](https://group11-sp.wiktorskit.sigma2.no) | [O](https://group12-sp.wiktorskit.sigma2.no) | [O](https://group13-sp.wiktorskit.sigma2.no) | [O](https://group14-sp.wiktorskit.sigma2.no) | [O](https://group15-sp.wiktorskit.sigma2.no) |
 
 ## 3. Built With
-
 * Python3
+
+## 4. Tips and Tricks
+* (context menu) shift + mouse right click
+* (paste) shift + insert
+* (copy) ctrl + insert
