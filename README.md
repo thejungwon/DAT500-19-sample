@@ -4,6 +4,8 @@ UiS DAT500 PySpark sample code.
 Since the cluster is being deployed, if your cluster is not ready yet, you can practice in your local environment with following [this guide](https://github.com/thejungwon/dat500-19-sample/blob/master/pyspark-test.pdf).
 
 ## 1. Getting Started
+![main_image](https://github.com/thejungwon/dat500-19-sample/blob/master/main.png "Jupyter Lab Main Page")
+
 ### Installation
 ```
 cd <YOUR-GROUP-FOLDER>
