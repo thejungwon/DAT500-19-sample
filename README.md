@@ -9,7 +9,7 @@ Since the cluster is being deployed, if your cluster is not ready yet, you can p
 cd <YOUR-GROUP-FOLDER>
 git clone https://github.com/thejungwon/dat500-19-sample.git
 cd dat500-19-sample
-wget https://www.dropbox.com/s/vofyl0uryectfyt/actors.list?dl=0
+wget -O actors.list https://www.dropbox.com/s/vofyl0uryectfyt/actors.list?dl=0
 //or 
 curl -L -o actors.list https://www.dropbox.com/s/vofyl0uryectfyt/actors.list\?dl\=1
 ```
